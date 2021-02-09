@@ -16,18 +16,18 @@ import { CKEditorModule } from '@ckeditor/ckeditor5-angular';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC29O-PoO-45wzxoyMU_oU9DYyjb0GC6JU",
+  apiKey: "xxx",
   authDomain: "flowrolljj.firebaseapp.com",
   databaseURL: "https://flowrolljj.firebaseio.com",
   projectId: "flowrolljj",
   storageBucket: "flowrolljj.appspot.com",
-  messagingSenderId: "157974903699"
+  messagingSenderId: "xxx"
 };
 
 const config = {
   issuer: 'https://dev-637635.okta.com',
   redirectUri: window.location.origin + '/implicit/callback',
-  clientId: '0oa27wjykdKiQYlEO357'
+  clientId: 'xxx'
 };
 
 @NgModule({
